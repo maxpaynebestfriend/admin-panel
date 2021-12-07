@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="./button.css">
+</head>
+<body>
+    <svg class="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <symbol id="bin" viewbox="0 0 16 16">
+            <path d="M2 3.5H3.5M14 3.5H12.5M5.5 3.5H10.5M5.5 3.5V2.5C5.5 1.94772 5.94772 1.5 6.5 1.5H9.5C10.0523 1.5 10.5 1.94772 10.5 2.5V3.5M5.5 3.5H3.5M10.5 3.5H12.5M3.5 3.5V13.5C3.5 14.0523 3.94772 14.5 4.5 14.5H11.5C12.0523 14.5 12.5 14.0523 12.5 13.5V3.5" fill="none" stroke-linecap="round"/>
+            <path d="M6.5 6V12M9.5 6V12" fill="none" stroke-linecap="round"/>
+        </symbol>
+    </svg>
+
+    <div class="container">
+        <form class="buttons__table">
+            <div class="buttons__row">
+                <div class="buttons__column">
+                    <button class="button button_primary-size_large">
+                        <svg class="button__icon">
+                            <use xlink:href="#bin"></use>
+                        </svg>
+                        <span class="button__text">Text here</span>
+                    </button>
+
+                    <button class="button button_primary-size_medium">
+                        <span class="button__text">Text here</span>
+                    </button>
+
+                    <button class="button button_primary-size_small">
+                        <svg class="button__icon">
+                            <use xlink:href="#bin"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="buttons__column">
+                    <button class="button button_primary-size_large button_transparent">
+                        <svg class="button__icon">
+                            <use xlink:href="#bin"></use>
+                        </svg>
+                        <span class="button__text">Text here</span>
+                    </button>
+
+                    <button class="button button_primary-size_medium button_transparent">
+                        <span class="button__text">Text here</span>
+                    </button>
+
+                    <button class="button button_primary-size_small button_transparent">
+                        <svg class="button__icon">
+                            <use xlink:href="#bin"></use>
+                        </svg>
+                    </button>
+                    </div>
+                <div class="buttons__column">
+                    <button class="button button_primary-size_large button_length_long button_disabled" disabled>
+                        <svg class="button__icon">
+                            <use xlink:href="#bin"></use>
+                        </svg>
+                        <span class="button__text">Text here</span>
+                    </button>
+
+                    <button class="button button_primary-size_medium button_length_long button_disabled" disabled>
+                        <span class="button__text">Text here</span>
+                    </button>
+                </div>
+            </div>
+            <div class="buttons__row">
+                <div class="buttons__column">
+                    <button class="button button_secondary-size_large">
+                        <svg class="button__icon">
+                            <use xlink:href="#bin"></use>
+                        </svg>
+                        <span class="button__text">Text here</span>
+                    </button>
+
+                    <button class="button button_secondary-size_medium">
+                        <span class="button__text">Text here</span>
+                    </button>
+
+                    <button class="button button_secondary-size_small">
+                        <svg class="button__icon">
+                            <use xlink:href="#bin"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="buttons__column">
+                    <button class="button button_secondary-size_large button_transparent">
+                        <svg class="button__icon">
+                            <use xlink:href="#bin"></use>
+                        </svg>
+                        <span class="button__text">Text here</span>
+                    </button>
+
+                    <button class="button button_secondary-size_medium button_transparent">
+                        <span class="button__text">Text here</span>
+                    </button>
+
+                    <button class="button button_secondary-size_small button_transparent">
+                        <svg class="button__icon">
+                            <use xlink:href="#bin"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
